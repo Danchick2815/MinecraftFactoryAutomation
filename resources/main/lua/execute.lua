@@ -1,6 +1,6 @@
 local url = ""
 local ws = nil
-local converter = require("converter")
+local converter = require("/converter")
 os.sleep(1)
 
 function connect()
@@ -43,3 +43,4 @@ while true do
         end
     end
 end
+
